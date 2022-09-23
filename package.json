@@ -1,0 +1,12 @@
+{
+  "name": "node_paypal_sample",
+  "version": "1.0.0",
+  "description": "Sample paypal app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Ellis velandia",
+  "license": "ISC"
+}

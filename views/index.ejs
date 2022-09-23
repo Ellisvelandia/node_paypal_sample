@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(14, 102, 218);
+      }
+    </style>
+    <title>Paypal node App</title>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        color: #fff;
+      "
+    >
+      <h1>Boston Red Sox Hat</h1>
+      <img
+        src="https://www.eblens.com/prodimages/alt_images/large/70646635~view1.jpg"
+        alt="boston"
+        style="width: 300px"
+      />
+      <h2>Buy For $25</h2>
+      <form action="/pay" method="post">
+        <input
+          type="submit"
+          value="Buy"
+          style="
+            background-color: rgb(14, 102, 218);
+            color: #fff;
+            border-radius: 20px;
+            width: 110px;
+            height: 40px;
+            border: 1px solid #fff;
+            cursor: pointer;
+          "
+        />
+      </form>
+    </div>
+  </body>
+</html>
